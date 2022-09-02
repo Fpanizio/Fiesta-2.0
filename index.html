@@ -15,55 +15,64 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Header -->
-        <div class="collapse navbar-collapse nav" id="">
-            <div class="navbar-nav">
-                <div class="navbar-box" id="salmon">
+    <!-- Header -->
+    <div class="header">
+        <nav class="navbar navbar-expand-lg" style="flex: 1;">
+            <div class="navbar-nav" style="display: flex;
+            justify-content: space-between;">
+                <div class="navbar-box box-A" id="salmon">
                     <a class="nav-item nav-link" href="#" style="color: white;">Chacaras para festa</a>
                 </div>
-                <div class="navbar-box" id="green">
+                <div class="navbar-box box-A" id="green">
                     <a class="nav-item nav-link" href="#" style="color: black;">Monte sua festa</a>
                 </div>
             </div>
+        </nav>
 
+        <div class="navbar navbar-expand-lg logo" style="flex: 1;">
+            <div class="logo-image">
+                <img src="assets/Image/logo 1.png" alt="" style="padding-top: 20px; padding-left: 7px;">
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg" style="flex: 1;">
             <div class="navbar-nav">
-                <div class="navbar-box" id="yellow">
+                <div class="navbar-box box-B" id="yellow">
                     <a class="nav-item nav-link" href="#" style="color: black;">Buffets</a>
                 </div>
-                <div class="navbar-box" id="yellow-light">
+                <div class="navbar-box box-B" id="yellow-light">
                     <a class="nav-item nav-link" href="#" style="color: black;">Atrações</a>
                 </div>
-                <div class="navbar-box" id="gray">
+                <div class="navbar-box box-C" id="gray">
                     <a class="nav-item nav-link" href="#" style="color: white;">Entrar</a>
                 </div>
             </div>
-        </div>
-        <div class="logo-image">
-            <img src="assets/Image/logo 1.png" alt="" style="padding-top: 20px; padding-left: 7px;">
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <!-- Search box -->
     <div class="search-box">
-        <div class="search-width">
-            <input type="search" class="form-control input-style" placeholder="Data da Festa" aria-label="Search"
+        <div class="search-width" style="flex: 1;">
+            <input type="date" class="form-control input-style" placeholder="Data da Festa" aria-label="Search"
                 aria-describedby="search-addon" />
         </div>
-        <div class="search-width">
-            <input type="search" class="form-control input-style" placeholder="Tipo de Festa" aria-label="Search"
-                aria-describedby="search-addon" />
+        <div class="search-width" style="flex: 1;">
+            <select type="select" class="form-control input-style" placeholder="Tipo de Festa">
+            <option value="">Tipo de Festa</option>
+            <option value="valor1">Tipo de Festa 1</option>
+            <option value="valor2">Tipo de Festa 2</option>
+            <option value="valor3">Tipo de Festa 3</option>
+        </select>
         </div>
-        <div class="search-width">
-            <input type="search" class="form-control input-style" placeholder="Categoria" aria-label="Search"
-                aria-describedby="search-addon" />
+        <div class="search-width" style="flex: 1;">
+            <select type="select" class="form-control input-style" placeholder="Tipo de Festa" >
+            <option value="">Categoria</option>
+            <option value="valor1">Categoria 1</option>
+            <option value="valor2">Categoria 2</option>
+            <option value="valor3">Categoria 3</option>
+        </select>
         </div>
-        <div class="navbar-box" id="purple">
+        <div class="navbar-box box-D search-button" id="purple" style="flex: 1;">
             <a class="nav-item nav-link" href="#" style="color: white;">Pesquisar</a>
         </div>
     </div>

@@ -1,0 +1,50 @@
+NAVBAR
+    ok - Possui padding-top na navbar. No layout não tem.
+    ok - Botões da direita fora do padrão.
+    ok - Padding do nav errado. O certo seria 14px 33px 21px 38px.
+    ok - Espaçamento entre logo e botões errado pois a logo não está centralizada.
+    ok - Espaçamento entre navbar e search-box maior que do layout
+    ok - Box-shadow da logo está menor que do layout
+
+SEARCH-BOX
+    ok(?) - Padding diferente. Deveria ser: 23px 101px 28px 30px.
+    ok - Botão com padding e cor diferente. Font-weight normal (400) e não bold (700)
+    ok - Border-radius diferente. Deveria ser 4px.
+    ok - Margin entre inputs e barra maior que do layout.
+    \\ - Inputs divergem:
+        ok    Data da festa: deveria ser input tipo data.
+        ok    Tipo de festa: deveria ser um select
+        ok    Categoria: deveria ser um select
+        ?    Todas as 3 faltam a seta na direita.
+        ok(?)    Width errado. Estão com 270px e deveriam ter 295px
+        ok(?)    Não possuem borda, apenas box-shadow
+        ok    Cor do placeholder errado. Deveria ser #8A8A8A
+    ok - Tamanho do box difere. O max-width deveria ser de 1321px. 
+
+SIDE-MENU
+    ok - Width diferente. Teria que ter 298px.
+    ok - Padding diferente. Teria que ter 23px 66px 46px.
+    ? - Faltou o bottom shadow.
+    ok(?) - Distância entre quadrado colorido e escrita difere. Teria que ter 18.5px.
+    ok(?) - Distância entre título e descrição difere. Teria que ter 35px no top e bottom.
+    ok(?) - Borda do título precisa ter 165px de width como mostra no layout.
+    ok - Classe .main-page com padding diferente. Deveria ser: 48px 29px 128px 85px.
+
+MAIN-CONTENT
+    ok - Padding diferente. Deveria ser: 34px 24px 33px 27px.
+    ok - Border-radius muito grande. 25px acredito ser o ideal.
+    ? - HR entre os tópicos está muito afastado. 
+    ok - Margin bottom e top do card diferente. Teria que ter 16px.
+    ok - Entre título e texto a margem precisa ser de 16px.
+    ? - Box-shadow não está indo até o final da imagem como no layout.
+    ok - Espaço entre cards é diferente. Teria de ser 26px.
+
+MAIN-CONTENT
+    ok - Imagem com tamanho diferente.
+
+FOOTER
+    ok - Padding diferente. Deveria ser: 48px auto.
+    ok - Margin right do menu esquerdo é diferente. Teria de ser 70px.
+    ok - Margin left do menu direito é diferente. Teria de ser 79px.
+    ? - Height dos HRs difere. Precisam ter 200px e está com 240px.
+    ? - Espaçamento entre os links dos menus está errado. Teria que ter 12px.
